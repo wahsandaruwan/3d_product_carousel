@@ -38,17 +38,33 @@ p{
     width: 100%;
     min-height: 100vh;
     perspective: 2000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
 /* ---------Slide--------- */
 .container .slide{
     width: 100%;
-    min-height: 100vh;
-    animation: rotation 14s infinite linear;
+    animation: rotation 20s infinite linear;
     transform-style: preserve-3d;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.container .slide:hover{
+    animation-play-state: paused;
+}
+
+@keyframes rotation{
+    0%{
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(-360deg);
+    }
 }
 
 /* ---------Product Box--------- */
