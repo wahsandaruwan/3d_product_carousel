@@ -89,6 +89,7 @@ p{
     transition: all 0.5s ease-in-out;
 }
 
+.container .product-box .button:hover .add-btn,
 .container .product-box .button .add-btn:hover{
     transform: rotateX(360deg);
     background-color: #ffffff;
