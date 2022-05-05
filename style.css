@@ -8,3 +8,35 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+/* --------------Common-------------- */
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #dff9fb;
+}
+
+/* --------------Container-------------- */
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ---------Product Box--------- */
+.container .product-box{
+    background-color: #4834d4;
+    padding: 20px;
+}
+
+.container .product-box .img{
+    max-width: 250px;
+    overflow: hidden;
+}
+
+.container .product-box .img > img{
+    width: 100%;
+}
