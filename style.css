@@ -14,7 +14,7 @@ body{
     width: 100%;
     min-height: 100vh;
     background: rgb(206, 205, 228);
-    background: radial-gradient(circle, rgba(206, 205, 228, 1) 0%, rgba(191, 191, 250, 1) 42%, rgba(0, 212, 255, 1) 100%);
+    background: radial-gradient(circle, rgba(206, 205, 228, 1) 0%, rgba(191, 191, 250, 1) 42%, rgb(164, 226, 238) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,7 +23,7 @@ body{
 a{
     text-decoration: none;
     color: #ffffff;
-    font-size: 1rem;
+    font-size: 0.8rem;
     cursor: pointer;
 }
 
@@ -51,11 +51,12 @@ p{
     align-items: center;
 }
 
+/* ---------Product Box--------- */
 .container .slide .product-box{
     max-width: 450px;
     position: absolute;
     background: rgb(206, 205, 228);
-    background: radial-gradient(circle, rgba(206, 205, 228, 1) 0%, rgba(77, 77, 251, 1) 42%, rgba(0, 212, 255, 1) 100%);
+    background: radial-gradient(circle, rgba(206, 205, 228, 1) 0%, rgba(154, 154, 255, 1) 42%, rgba(24, 161, 189, 1) 100%);
     padding: 20px;
     border-radius: 20px;
     margin: 0 10px;
@@ -85,6 +86,7 @@ p{
     transform: rotateY(360deg) translateZ(300px);
 }
 
+/* Image */
 .container .product-box .img{
     max-width: 250px;
     max-height: 300px;
@@ -103,19 +105,21 @@ p{
     height: 100%;
 }
 
+/* Details */
 .container .product-box .details{
     margin-bottom: 10px;
 }
 
 .container .product-box .details .name{
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .container .product-box .details .price{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 500;
 }
 
+/* Button */
 .container .product-box .button{
     text-align: center;
 }
